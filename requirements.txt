@@ -1,0 +1,7 @@
+# requirements.txt
+google-generativeai==0.8.3  # Gemini brain
+langgraph==0.2.5  # Orchestration graph
+google-search-results==2.4.2  # Built-in search tool (SerpAPI key needed)
+python-dotenv==1.0.1  # Env vars
+pytest==8.3.3  # Evals/tests
+docker  # Prod hint
