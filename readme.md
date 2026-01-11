@@ -2,9 +2,9 @@
 # Reality Remix Agent: Freestyle Track Capstone
 
 ## Pitch
-Everyday frustrations—spilled coffee, missed buses—trap us in loops of the ordinary. This unclassifiable agent remixes them into branching, interactive narratives: user-driven tales blending fact, fiction, and feeling. Objective: Spark creativity, saving 3 hours/week on "what if" brainstorming by generating 5+ personalized story forks per prompt. Value: 80% user-rated "inspiring" via evals, scaling from solo dreams to collaborative worlds.
+Everyday frustrations—spilled coffee, missed buses—trap us in loops of the ordinary. This unclassifiable agent remixes them into branching, interactive narratives: user-driven tales that blend fact, fiction, and emotion. Objective: Spark creativity, saving 3 hours/week on "what if" brainstorming by generating 5+ personalized story forks per prompt. Value: 80% user-rated "inspiring" via evals, scaling from solo dreams to collaborative worlds.
 
-Built on Google whitepapers: Multi-agents (sequential ideation → parallel branching, *Intro to Agents* p.30-35), tools/MCP (*Agent Tools* p.10-25), memory compaction (*Context Engineering* p.27-38), evals (*Agent Quality* p.18-25), eval-gated deploy (*Prototype to Production* p.11-15).
+Built on Google whitepapers: Multi-agents (sequential ideation → parallel branching, *Intro to Agents* p.30-35), tools/MCP, memory compaction, evals, eval-gated deploy.
 
 ## Features Demo (3+ Keys)
 - **Multi-Agents**: LLM-powered sequential (ideate → branch) + parallel loops for rival paths.
@@ -19,7 +19,7 @@ Built on Google whitepapers: Multi-agents (sequential ideation → parallel bran
 3. `python run.py --prompt "Lost my keys" --user_id dreamer1`
 
 ## Example Output
-Prompt: "Rainy commute blues"  
+Prompt: "Rainy commute blues."  
 Remix: Branch 1: Cyberpunk dash through neon floods (choice: Hack the storm?). Branch 2: Victorian intrigue in puddles (choice: Ally with the fog?). Eval Score: 4.5/5 "Evocative."
 
 Extend: Add video renders for branches (+bonus points!).
